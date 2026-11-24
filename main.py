@@ -20,4 +20,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()  # one joke, written and printed: fully deterministic
+    # One fixed joke (151 chars, inside the 1-200 char entry window), written
+    # to /output/entry.txt and printed: fully deterministic, stdlib only.
+    main()
